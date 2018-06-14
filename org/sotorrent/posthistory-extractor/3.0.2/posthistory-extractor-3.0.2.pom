@@ -15,7 +15,7 @@
         <project.build.sourceDirectory>src</project.build.sourceDirectory>
         <project.build.testSourceDirectory>src/org/sotorrent/posthistoryextractor/tests</project.build.testSourceDirectory>
         <!-- Maven -->
-        <maven.mainclass>MainIterator</maven.mainclass>
+        <maven.mainclass>org.sotorrent.posthistoryextractor.MainIterator</maven.mainclass>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
@@ -47,7 +47,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>file://${basedir}/../maven/</url>
+            <url>file://${basedir}/../releases/</url>
         </repository>
     </distributionManagement>
 
@@ -55,7 +55,7 @@
         <!-- see also https://stackoverflow.com/a/14013645 -->
         <repository>
             <id>sotorrent</id>
-            <url>https://raw.github.com/sotorrent/maven/master/</url>
+            <url>https://raw.github.com/sotorrent/releases/master/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
