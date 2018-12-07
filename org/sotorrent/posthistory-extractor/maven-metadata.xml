@@ -3,7 +3,7 @@
   <groupId>org.sotorrent</groupId>
   <artifactId>posthistory-extractor</artifactId>
   <versioning>
-    <release>3.3.0</release>
+    <release>3.4.0</release>
     <versions>
       <version>3.0.0</version>
       <version>3.0.1</version>
@@ -18,7 +18,8 @@
       <version>3.2.1</version>
       <version>3.2.2</version>
       <version>3.3.0</version>
+      <version>3.4.0</version>
     </versions>
-    <lastUpdated>20181130161136</lastUpdated>
+    <lastUpdated>20181207102729</lastUpdated>
   </versioning>
 </metadata>
